@@ -6,8 +6,8 @@ license = "MIT"
 [[mods]]
 modId = "realism"
 version = "${version}"
-displayName = "Create Realism"
-authors = "Stacode"
+displayName = "Create Realism Patched"
+authors = "Stacode, Patched by K256"
 description = '''
 A mod changing the Trains in create to be more realistic
 '''

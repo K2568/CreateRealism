@@ -2,13 +2,13 @@
   "schemaVersion": 1,
   "id": "realism",
   "version": "${version}",
-  "name": "Create Realism",
+  "name": "Create Realism Patched",
   "description": "A mod changing the Trains in create to be more realistic",
   "authors": [
-    "Stacode"
+    "Stacode, Patched by K256"
   ],
   "contact": {
-    "sources": "https://github.com/stacode123/CreateRealism"
+    "sources": "https://github.com/K2568/CreateRealism"
   },
   "license": "MIT",
   "icon": "assets/realism/icon.png",

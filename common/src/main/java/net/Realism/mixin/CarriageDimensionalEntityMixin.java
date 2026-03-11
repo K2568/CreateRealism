@@ -83,6 +83,10 @@ public class CarriageDimensionalEntityMixin {
      */
     @Unique
     private float realism$calculateBanking(CarriageContraptionEntity entity,ITrainInterface Rtrain) {
+        // Disable centrifugal force bank
+        if (Rtrain.realism$getSettings().isTiltNone()) {
+            return 0f;
+        }
         // Get the leading bogey
         CarriageBogey leadingBogey = this$0.leadingBogey();
         if (leadingBogey == null) {
